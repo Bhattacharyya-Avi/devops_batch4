@@ -15,8 +15,7 @@ jobs:
             - name: do git checkout 
               uses: actions/checkout@v2
             - name: find and get content of txt file
-              run: cat hello.txt
-            #   run: |
-            #   ls -l
-            #   cat hello.txt
+              run: |
+              ls -l
+              cat hello.txt
 
