@@ -16,6 +16,6 @@ jobs:
               uses: actions/checkout@v2
             - name: find and get content of txt file
               run: |
-              ls -l
-              cat hello.txt
+                ls -l
+                cat hello.txt
 
